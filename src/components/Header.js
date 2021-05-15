@@ -62,8 +62,9 @@ const Header = (props) => {
             <Work>
               <a>
                 <img src="/images/nav-work.svg" alt="Work" />
-                <span>Work
-                <img src="images/down-icon.svg" alt="" />
+                <span>
+                  Work
+                  <img src="images/down-icon.svg" alt="" />
                 </span>
               </a>
             </Work>
@@ -164,7 +165,7 @@ const NavListWrap = styled.ul`
       bottom: 0;
       left: 0;
       position: absolute;
-      transition: transform .2s ease-in-out;
+      transition: transform 0.2s ease-in-out;
       width: 100%;
       border-color: rgba(0, 0, 0, 0.9);
     }
