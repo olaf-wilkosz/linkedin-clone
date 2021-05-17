@@ -9,7 +9,7 @@ import { getUserAuth } from "./actions";
 
 function App(props) {
   useEffect(() => {
-    props.getUserAuth();
+    props.getUserAuth(); // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
